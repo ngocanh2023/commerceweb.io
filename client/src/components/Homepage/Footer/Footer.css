@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  font-size: 1.2vw;
+  padding: 10vh 10vw 10vh 15vw;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  width: 74vw;
+  margin: 0;
+}
+.customer {
+  padding: 0 15vw 0 0;
+}
+.customerheader {
+  padding: 2vh 0 2vh 0;
+  font-size: 1.5vw;
+}

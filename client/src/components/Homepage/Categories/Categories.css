@@ -1,0 +1,27 @@
+.line1img {
+  display: flex;
+  padding-top: 1vh;
+}
+.img1 img {
+  width: 48vw;
+  padding: 1vh 1vw 1vh 0vw;
+}
+.img2 img {
+  width: 48vw;
+  padding: 1vh 0vw 1vh 1vw;
+}
+.line2img {
+  display: flex;
+}
+.img3 img {
+  width: 31vw;
+  padding: 1vh 1vw 1vh 0vw;
+}
+.img4 img {
+  width: 31vw;
+  padding: 1vh 1vw 1vh 1vw;
+}
+.img5 img {
+  width: 31vw;
+  padding: 1vh 0vw 1vh 1vw;
+}

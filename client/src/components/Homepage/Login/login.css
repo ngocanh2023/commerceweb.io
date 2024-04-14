@@ -1,0 +1,70 @@
+.loginRegister {
+  width: 100vw;
+}
+.loginRegister img {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.loginRegister form {
+  position: absolute;
+  border: 0.1vw solid rgb(105, 105, 105);
+  border-radius: 1vw;
+  box-shadow: 2vw 2vh 2vw rgb(177, 176, 176);
+  margin: -90vh 0 0 10vw;
+  width: 40vw;
+}
+.loginForm h1 {
+  padding: 2vh 0 0vh 14vw;
+  font-size: 3vw;
+  font-weight: bold;
+  font-style: italic;
+}
+.checkError {
+  padding: 0 0 0 4vw;
+}
+.loginEmail,
+.loginPassword {
+  padding: 2vh 1vw 2vh 4vw;
+}
+.loginEmail input,
+.loginPassword input {
+  font-size: 1.4vw;
+  width: 30vw;
+  padding: 2vh 1vw 2vh 1vw;
+}
+.loginForm button {
+  width: 32vw;
+  padding: 2.5vh 1vw 2.5vh 1vw;
+  font-size: 1.4vw;
+  background-color: rgb(54, 53, 53);
+  color: white;
+  font-style: italic;
+  border-radius: 0.5vw;
+}
+.loginButton {
+  padding: 5vh 0 5vh 4vw;
+  width: 30vw;
+}
+.loginForm button:hover,
+.loginForm button:active {
+  box-shadow: 5px 5px 5px rgb(102, 100, 100);
+}
+.signUp {
+  font-size: 1.6vw;
+  font-style: italic;
+  padding: 0 0 10vh 10vw;
+}
+.signupBtn {
+  color: brown;
+  font-weight: bold;
+}
+.signupBtn:hover,
+.signupBtn:active {
+  background-color: brown;
+  color: white;
+  padding: 1vh 1vw 1.5vh 1vw;
+  border-radius: 0.5vw;
+  width: 8vw;
+  text-align: center;
+}

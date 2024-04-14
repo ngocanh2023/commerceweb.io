@@ -1,0 +1,113 @@
+.shopcontent {
+  display: flex;
+}
+.cate {
+  width: 20vw;
+  padding: 1vh 1vw 1vh 1vw;
+}
+.catedetail {
+  width: 15vw;
+}
+.categories {
+  font-size: 1.8vw;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0vh 0 1vh 0;
+}
+.apple,
+.all,
+.iphonemac,
+.iphone,
+.ipod,
+.mac,
+.wireless,
+.airpod,
+.watch,
+.other,
+.mouse,
+.keyboard,
+.other {
+  padding: 1vh 1vw 1vh 1vw;
+  font-style: italic;
+  display: grid;
+  grid-template-columns: 1;
+  border: none;
+  font-size: 1.6vw;
+  background-color: white;
+  width: 15vw;
+  text-align: left;
+}
+.apple:hover,
+.all:hover,
+.iphonemac:hover,
+.iphone:hover,
+.ipod:hover,
+.mac:hover,
+.wireless:hover,
+.airpod:hover,
+.watch:hover,
+.other:hover,
+.mouse:hover,
+.keyboard:hover,
+.other:hover {
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}
+.apple {
+  color: white;
+  background-color: rgb(83, 83, 83);
+}
+.iphonemac,
+.wireless,
+.other {
+  background-color: rgb(202, 199, 199);
+  font-style: italic;
+  font-weight: bold;
+}
+.shopsearch {
+  display: flex;
+}
+.search {
+  padding: 1vh 0vw 2vh 0vw;
+}
+.search input {
+  width: 20vw;
+  height: 5vh;
+  padding: 0.5vh 0 0.5vh 1vw;
+  font-size: 1.6vw;
+}
+.select select {
+  width: 15vw;
+  height: 5vh;
+  font-size: 1.6vw;
+  padding: 0.5vh 0 0.5vh 1vw;
+}
+.select {
+  padding: 1vh 0 0 38vw;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(4, 18vw);
+  grid-template-rows: 2;
+}
+.trending img {
+  width: 18vw;
+}
+.trending {
+  width: 18vw;
+}
+.trendingproduct {
+  grid-template-columns: repeat(4, 20vw);
+  width: 82vw;
+}
+.trendingname {
+  text-decoration: none;
+}
+.trendingprice {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

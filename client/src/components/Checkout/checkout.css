@@ -1,0 +1,124 @@
+.bannerCheckout {
+  width: 98vw;
+  margin: 0;
+  display: flex;
+  font-size: 2.4vw;
+  padding: 3vh 0vw 5vh 2vw;
+  font-style: italic;
+  font-weight: bold;
+  background-color: rgb(220, 216, 216);
+}
+.toolbar {
+  display: flex;
+  padding: 5vh 0vw 5vh 30vw;
+  font-size: 2vw;
+}
+.homeTool button,
+.cartTool button,
+.checkTool button {
+  border: none;
+  background-color: rgb(220, 216, 216);
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+.homeTool button:hover,
+.cartTool button:hover,
+.checkTool button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 0.5vw;
+  padding: 1vh 1vw 1vh 1vw;
+}
+.checkContent {
+  display: grid;
+  grid-template-columns: 58vw 40vw;
+  padding: 2vh 0 0 0;
+}
+h2 {
+  font-size: 2.2vw;
+}
+h3 {
+  font-size: 2vw;
+}
+.billDetail {
+  padding: 0.5vh 2vw 0.5vh 2vw;
+  font-style: italic;
+}
+.fullName h3,
+.inputName h3,
+.email h3,
+.phoneNumber h3,
+.address h3 {
+  padding: 0.2vh 2vw 0.2vh 2vw;
+  font-style: italic;
+}
+.inputName input,
+.inputEmail input,
+.inputPhone input,
+.inputAddress input {
+  width: 50vw;
+  height: 5vh;
+  padding: 1vh 2vw 1vh 1vw;
+  font-size: 1.8vw;
+}
+.inputName,
+.inputEmail,
+.inputPhone,
+.inputAddress {
+  padding: 0 0vw 0 2vw;
+}
+.placeOrder {
+  padding: 5vh 2vw 2vh 2vw;
+}
+.placeOrder button {
+  width: 20vw;
+  font-size: 2.2vw;
+  padding: 1vh 1vw 1vh 1vw;
+  border-radius: 0.5vw;
+  background-color: grey;
+  font-style: italic;
+}
+.placeOrder button:hover {
+  background-color: black;
+  color: white;
+}
+.typePrice {
+  display: flex;
+  font-size: 2.2vw;
+  border-bottom: 0.1vw solid black;
+}
+.totalPrice {
+  display: flex;
+  font-size: 2.4vw;
+  font-style: italic;
+  padding: 2vh 0 1vh 0;
+}
+.yourOrder {
+  padding: 2vh 2vw 5vh 2vw;
+  background-color: rgb(220, 216, 216);
+  border-radius: 2vw;
+  width: 36vw;
+  height: auto;
+}
+.yourOrder h2 {
+  font-size: 2.2vw;
+  font-style: italic;
+}
+.typeOrder {
+  font-weight: bold;
+  font-style: italic;
+  padding: 1vh 0 1vh 0;
+}
+.priceOrder {
+  padding: 1vh 0 1vh 0;
+  font-style: italic;
+}
+.totalOrder {
+  font-style: italic;
+  font-weight: bold;
+  padding: 2vh 0 0 0vw;
+}
+.priceTotal {
+  padding: 2vh 0 0 10vw;
+  font-weight: bold;
+}

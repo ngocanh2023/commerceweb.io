@@ -1,0 +1,271 @@
+.adminNav {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  background-color: brown;
+  color: whitesmoke;
+}
+
+.adminTit {
+  font-size: 2.5rem;
+  padding: 1.5vh 0 0 1vw;
+
+}
+
+.adminMenu {
+  width:45vw;
+  font-size: 1.2rem;
+  padding: 4vh 0vw 0 35vw;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.adminHome {
+  padding: 0vh 1vw 0vh 1vw;
+}
+.loginHeader{
+  padding: 5vh 2vw 2vh 2vw;
+  font-size: 1.2rem;
+}
+
+.loginApp {
+  padding: 0 1vw 0 1vw;
+}
+
+.chatApp, .dashboard {
+  padding: 0 1vw 0 1vw;
+}
+
+.adminHome:hover,
+.chatApp:hover,
+.loginApp:hover,
+.dashboard:hover {
+  background-color: green;
+  color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.2rem rgb(1, 73, 1);
+  padding: 1vh 1vw 1vh 1vw; 
+}
+
+.photoImg {
+  width: 10vw;
+  text-align: center;
+}
+
+.photoImg img {
+  width: 5vw;
+  height: 10vh;
+  padding: 0.5vh 0 0.5vh 0;
+}
+
+.tableAdmin {
+  width: 98vw;
+  padding: 2vh 0vw 0 0vw;
+}
+
+.tableMenu {
+  width: 98vw;
+}
+
+th {
+  background-color: rgb(116, 116, 224);
+  color: white;
+  height: 5vh;
+}
+
+td {
+  border-bottom: 0.1rem solid grey;
+  border-right: 0.1rem solid grey;
+}
+
+tbody {
+  font-size: 1rem;
+}
+
+.editUpdate {
+  display: flex;
+  justify-content: center;
+}
+
+.editBtn {
+  padding: 0 0.5vw 0 0.5vw;
+}
+
+.updateBtn {
+  padding: 0 0.5vw 0 0;
+}
+
+.editBtn button {
+  background-color: green;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1vh 1vw 1vh 1vw;
+}
+
+.updateBtn button {
+  background-color: red;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1vh 1vw 1vh 1vw;
+}
+
+.searchTool {
+  display: flex;
+  padding: 2vh 0 0 1vw;
+}
+.addNew{
+  padding: 0 0 0 50vw;
+}
+.addNew button{
+  width: 10vw;
+  height: 5vh;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color: orange;
+  color: white;
+}
+.searchInp input {
+  width: 25vw;
+  height: 5vh;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  font-size: 1rem;
+}
+
+.searchBtn {
+  padding: 0 0 0 1vw;
+}
+
+.searchBtn button {
+  width: 6vw;
+  height: 5vh;
+  font-size: 1.2vw;
+  border-radius: 0.4rem;
+}
+
+.btnSearch:hover {
+  background-color: rgb(109, 109, 243);
+  color: white;
+}
+
+/*  */
+* {
+  box-sizing: border-box
+}
+
+/* Set a style for all buttons */
+/* button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+} */
+
+button:hover {
+  opacity: 1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn,
+.deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px 16px 30px 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix {
+  align-items: center;
+}
+
+.clearfix button {
+  text-align: center;
+  height: 7vh;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+
+  .cancelbtn,
+  .deletebtn {
+    width: 100%;
+  }
+}

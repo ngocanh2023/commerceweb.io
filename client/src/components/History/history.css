@@ -1,0 +1,66 @@
+.element {
+    all: none;
+  }
+.hisNav {
+    width: 100%;
+    height: 15vh;
+    background-color: grey;
+    display: flex;  
+    color: white;
+}
+.navHistory {
+    font-size: 2.5rem;
+    padding: 2vh 0 0 2vw;
+    
+}
+.navHome {
+    padding: 4vh 0 0 70vw;
+}
+.homeMenu {
+    font-size: 1.8vw;
+    border-radius: 0.5rem;
+    padding: 1vh 1vw 1vh 1vw;
+
+}
+.homeMenu:hover {
+    background-color: black;
+    color: white;
+}
+.tableHistory {
+    margin: 1vh 1vw 1vh 1vw;
+}
+
+.tableHis {
+    width: 96vw;
+    border-radius: 0.5rem;
+
+}
+.headHis {
+    height: 5vh;
+}
+.menuHistory {
+    width: 98vw;
+}
+th {
+    height: 5vh;
+    background-color: rgb(134, 134, 240);
+    font-size: 0.8rem;
+}
+td {
+    border-bottom: 0.1rem solid grey;
+    border-right: 0.1rem solid grey;
+    padding: 0.2vh 0.1vw 0.2vh 0.1vw;
+    font-size: 0.8rem;
+}
+.btnHis {
+    text-align: center;
+}
+.btnHis button {
+    width: 5vw;
+    height: 5vh;
+    font-size: 0.5rem;
+    padding: 1vh 1vw 1vh 1vw;
+    background-color: rgb(29, 130, 29);
+    color: white;
+    border-radius: 0.5rem;
+}

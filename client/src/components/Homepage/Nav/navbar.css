@@ -1,0 +1,149 @@
+.nav {
+  display: flex;
+  text-align: center;
+  width: 99vw;
+  padding: 2vh 0vw 2vh 0vw;
+  background-color: wheat;
+  font-style: italic;
+  margin: 0vw;
+}
+.navEmail {
+  font-size: 1.8vw;
+  padding: 0.5vh 1vw 0 0;
+  font-weight: bold;
+}
+.homeshop {
+  display: flex;
+  padding: 0 0 0 5vw;
+  width: 45vw;
+  font-size: 1.8vw;
+}
+.cartlogin {
+  display: flex;
+  padding-left: 2vw;
+  width: 20vw;
+  text-align: center;
+  
+}
+.boutique {
+  text-align: center;
+  margin-top: 0vh;
+  width: 25vw;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+.shop, .btnHistory {
+  padding-left: 1vw;
+  text-decoration: none;
+  font-size: 1.8vw;
+}
+
+.home {
+  text-decoration: none;
+  font-size: 1.8vw;
+  padding: 0.5vh 0.5vw 1vh 0.5vw;
+}
+.loginNav {
+  display: grid;
+  padding: 0.5vh 1vw 0.5vh 0.5vw;
+  font-size: 1.8vw;
+}
+.login {
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+}
+.loginTit {
+  padding: 0vh 0 0 0;
+  font-size: 1.6vw;
+}
+.checkout {
+  display: grid;
+  font-size: 1.8vw;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+}
+.checkIcon {
+  width: 1.8vw;
+  height: 1.8vh;
+  text-align: center;
+  padding: 0vh 0 0vh 2vw;
+}
+.cart {
+  display: grid;
+  font-size: 1.8vw;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  text-align: center;
+}
+.checkTit, .cartTit, .logTit{
+  font-size: 1.6vw;
+}
+.checkTit {
+  padding-top: 2vh;
+}
+.cart:hover,
+.login:hover,
+.cart a:hover,
+.login a:hover,
+.checkout:hover,
+.loginNav:hover {
+  background-color: black;
+  color: white;
+  border-radius: 0.5vw;
+}
+.cartcontent {
+  padding-left: 0.5vw;
+  text-decoration: none;
+  margin: 0;
+}
+.logincontent {
+  padding-left: 0.5vw;
+  text-decoration: none;
+  margin: 0;
+}
+.boutique {
+  text-decoration: none;
+}
+.btnhome,
+.btnshop,
+.btnHistory,
+.cart,
+.login,
+.btnAdmin {
+  background-color: wheat;
+  border: none;
+  color: black;
+  font-size: 1.8vw;
+}
+.btnhome:hover,
+.btnshop:hover,
+.btnHistory:hover,
+.btnAdmin:hover {
+  background-color: black;
+  color: white;
+  padding: 0.5vh 1vw 0.5vh 1vw;
+  border-radius: 0.5rem;
+  margin: 0;
+}
+
+.loginModal {
+  width: 60vw;
+  padding: 5vh 20vw 20vh 15vw;
+  display: flex;
+  animation: fade 0.2s forwards;
+  opacity: 0;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.logoLogin,
+.logoCart {
+  padding: 0;
+  margin: 0;
+  width: 2vw;
+}

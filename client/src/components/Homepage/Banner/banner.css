@@ -1,0 +1,36 @@
+.banner {
+  width: 99vw;
+  padding-bottom: 1vh;
+}
+.banner1 img {
+  width: 99vw;
+}
+.banner1content {
+  position: absolute;
+  top: 18vh;
+  left: 5vw;
+  font-style: italic;
+}
+.banner11 {
+  font-size: 1.8vw;
+}
+.banner12 {
+  font-size: 2.5vw;
+  font-weight: bold;
+  padding: 2vh 0 2vh 0;
+  font-style: italic;
+}
+.banner1content button {
+  padding: 1vh 1vw 1vh 1vw;
+  background-color: grey;
+  border-color: grey;
+  color: white;
+  font-size: 1.8vw;
+  font-style: italic;
+}
+.banner1content button:hover {
+  padding: 1vh 2vw 1vh 2vw;
+  background-color: black;
+  color: white;
+  box-shadow: 1vh 1vw 1vh grey;
+}

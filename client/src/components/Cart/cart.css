@@ -1,0 +1,185 @@
+.bannerImg {
+  font-weight: bold;
+  font-style: italic;
+  width: 100vw;
+  background-color:whitesmoke;
+  display: flex;
+  margin: 0vw;
+}
+.cartShopping {
+  padding: 10vh 0vw 10vh 60vw;
+  font-size: 3vw;
+  color:black;
+}
+.cartDetail {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 100vw;
+  margin: 0vw;
+}
+.tableContent {
+  width: 70vw;
+}
+table {
+  width: 70vw;
+}
+.continueProcceed {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.continueShopping {
+  width: 25vw;
+  padding: 1vh 1vw 1vh 2vw;
+  font-style: italic;
+  font-size: 1.8vw;
+}
+.continueShopping button {
+  width: 20vw;
+  padding: 1vh 1vw 1vh 1vw;
+  border-radius: 0.5vw;
+  border: none;
+  font-style: italic;
+  font-size: 1.6vw;
+}
+.procceedCheckout button {
+  width: 27vw;
+  padding: 1vh 1vw 1vh 1vw;
+  border-radius: 0.5vw;
+  border: none;
+  font-style: italic;
+  font-size: 1.6vw;
+}
+
+.continueShopping button:hover,
+.procceedCheckout button:hover {
+  background-color: black;
+  color: white;
+}
+
+.procceedCheckout {
+  padding: 1vh 1vw 1vh 6vw;
+  font-style: italic;
+  font-size: 1.8vw;
+  width: 22vw;
+}
+.cartTotal {
+  background-color:whitesmoke;
+  padding: 1vh 1vw 1vh 1vw;
+  border-left: 1vw solid wheat;
+  width: 27vw;
+}
+.subtotal,
+.total {
+  width: 28vw;
+  border-bottom: 0.2vw solid rgb(252, 251, 251);
+}
+.coupon input {
+  width: 24vw;
+  height: 3vh;
+  font-size: 1.6vw;
+  padding: 1vh 1vw 1vh 2vw;
+}
+.coupon button {
+  width: 27vw;
+  height: 7vh;
+  font-size: 2vh;
+  padding: 1vh 1vw 1vh 1vw;
+  background-color: rgb(81, 79, 79);
+  border: none;
+  border-radius: 0.5vw;
+}
+.coupon {
+  padding: 2vh 0 1vh 0;
+}
+.couponButton {
+  padding: 3vh 0 1vh 0;
+}
+.coupon button:hover,
+.coupon button:active {
+  background-color: black;
+  color: white;
+}
+th {
+  width: 11vw;
+  font-style: italic;
+  padding: 1vh 0 1vh 0;
+  font-size: 1.6vw;
+}
+.shoppingCart {
+  padding: 1vh 2vw 1vh 2vw;
+  font-size: 1.8vw;
+  font-style: italic;
+  background-color: wheat;
+  width: 96vw;
+  margin: 0vw;
+}
+.tableContent {
+  background-color: whitesmoke;
+}
+
+.footer {
+  background-color: wheat;
+  color: black;
+}
+.cartImg img {
+  width: 10vw;
+}
+th {
+  border-bottom: 0.1vw solid grey;
+  border-right: 0.1vw solid grey;
+  width: 11vw;
+  height: 10vh;
+}
+.plusMinus {
+  display: flex;
+  padding-left: 1vw;
+  width: 4vw;
+}
+.countCart {
+  font-size: 2vw;
+  width: 2vw;
+}
+.removeCart button {
+  background-color: rgb(175, 179, 180);
+  border: none;
+}
+.removeCart button:hover {
+  background-color: black;
+  color: white;
+  padding: 1vh 1vw 1vh 1vw;
+  border-radius: 0.5vw;
+}
+.plusAmount button,
+.minusAmount button {
+  width: 4vw;
+  background-color: rgb(175, 179, 180);
+  border: none;
+}
+.plusAmount button:hover,
+.minusAmount button:hover {
+  background-color: black;
+  color: white;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  border-radius: 0.5vw;
+}
+.subtotalContent {
+  text-align: right;
+  padding: 1vh 1vw 1vh 0;
+  font-size: 2.2vw;
+  font-style: italic;
+}
+.totalContent {
+  text-align: right;
+  padding: 1vh 1vw 1vh 0;
+  font-size: 2.6vw;
+  font-style: italic;
+  font-weight: bold;
+}
+.couponDetail {
+  display: flex;
+  padding: 0.5vh 0 0.5vh 4vw;
+  font-size: 2vw;
+}
+.couponApply {
+  padding: 0 0 0 0.5vw;
+}

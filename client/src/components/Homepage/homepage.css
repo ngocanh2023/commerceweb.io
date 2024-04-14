@@ -1,0 +1,188 @@
+.line1 {
+  font-size: 1vw;
+  font-style: italic;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  text-align: center;
+}
+.line2 {
+  font-size: 1.5vw;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+.line {
+  text-align: center;
+}
+.shipping {
+  display: flex;
+  text-align: center;
+  width: 80vw;
+  padding: 7vh 0vw 7vh 20vw;
+  font-style: italic;
+  font-size: 1.5vw;
+  background-color: rgb(219, 217, 217);
+}
+.shippingline1 {
+  padding: 0 2vw 0 0;
+}
+.subfooter {
+  display: flex;
+}
+.friends {
+  padding: 5vh 2vh 5vh 2vh;
+  font-style: italic;
+  font-size: 1.5vw;
+}
+.emailSub {
+  padding: 5vh 2vw 5vh 22vw;
+}
+.emailSub input {
+  padding: 2vh 10vw 2vh 1vw;
+  font-size: 1.5vw;
+}
+.emailSub button {
+  padding: 2.3vh 2vw 2.3vh 2vw;
+  background-color: grey;
+  border: none;
+  font-size: 1.5vw;
+}
+.emailSub button:hover {
+  background-color: black;
+  color: white;
+  padding: 2.3vh 2.5vw 2.3vh 2.5vw;
+}
+.chatSupport svg {
+  width: 5vw;
+  color: rgb(59, 135, 223);
+  padding: 0;
+  margin: 0;
+}
+.chatSupport {
+  position: absolute;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+.chatSupport button {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.chatSupport button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 0.5vw;
+}
+.modalMsn, .chat-window {
+  position: absolute;
+  position: fixed;
+  background-color: white;
+  color: black;
+  bottom: 10vh;
+  right: 10vw;
+  width: 40vw;
+  font-size: 1.8vw;
+  border-radius: 1vw;
+  border: 0.1vw solid rgb(196, 193, 193);
+  box-shadow: 0.5vh 0.5vw rgb(196, 194, 194);
+}
+.modalHeader {
+  display: flex;
+  border-bottom: 0.1vw solid rgb(173, 171, 171);
+}
+.headerModal {
+  padding: 2vh 0 0 1vw;
+}
+.chatApp button {
+  font-size: 1.8vw;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  border-radius: 0.5vw;
+}
+.chatApp {
+  padding: 4vh 2vw 2vh 4vw;
+}
+.modalContent {
+  padding: 5vh 2vw 15vh 2vw;
+}
+.content1 {
+  background-color: rgb(59, 135, 223);
+  width: 10vw;
+  padding: 1vh 1vw 1vh 1vw;
+  text-align: right;
+  border-radius: 0.5vw;
+}
+.t1,
+.t2 {
+  display: flex;
+}
+.t2 {
+  padding: 1vh 0 1vh 0;
+}
+.t11 {
+  width: 30vw;
+}
+.content2 {
+  background-color: rgb(59, 135, 223);
+  padding: 1vh 1vw 1vh 1vw;
+  border-radius: 0.5vw;
+}
+.t21 {
+  width: 10vw;
+}
+.content3 {
+  display: flex;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  background-color: rgb(198, 195, 195);
+  border-radius: 0.5vw;
+  width: 20vw;
+  margin: 0vh 0 1vh 0;
+}
+.content4 {
+  display: flex;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  background-color: rgb(198, 195, 195);
+  border-radius: 0.5vw;
+}
+.contentIcon svg {
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  color: rgb(59, 135, 223);
+}
+.modalFooter {
+  display: flex;
+  padding: 1vh 0 2vh 0;
+  border-top: 0.1vw solid rgb(198, 195, 195);
+  width: 40vw;
+}
+.footerContent input {
+  width: 20vw;
+  font-size: 1.8vw;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  border-radius: 0.5vw;
+}
+.icon1 {
+  padding: 0.5vh 0.5vw 0.5vh 1vw;
+}
+.icon2 {
+  padding: 0.5vh 0.5vw 0.5vh 0vw;
+}
+.icon3 {
+  padding: 0.5vh 0 0.5vh 0;
+}
+.icon1:hover,
+.icon2:hover,
+.icon3:hover {
+  background-color: rgb(59, 135, 223);
+  color: white;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+  border-radius: 0.5vw;
+}
+.chatApp button:hover {
+  background-color: rgb(59, 135, 223);
+  color: white;
+  border-radius: 0.5vw;
+}
+.chat-header {
+  background-color: brown;
+  color: white;
+  padding: 1.5vh 0vw 0vh 2vw;
+}

@@ -1,0 +1,90 @@
+.trendingproduct {
+  display: grid;
+  width: 98vw;
+  grid-template-columns: repeat(4, 25vw);
+  grid-template-rows: repeat(2);
+  font-size: 1.2vw;
+}
+/* .productCenter {
+  padding: 0 0 0 10vw;
+} */
+.trending {
+  width: 23vw;
+  padding: 2vh 2vw 2vh 0;
+  text-align: center;
+}
+.trending img {
+  width: 24vw;
+}
+.trending button {
+  border: none;
+  padding: 0;
+}
+.modalimg img {
+  width: 20vw;
+}
+.modal {
+  width: auto;
+  padding: 5vh 20vw 20vh 15vw;
+  display: flex;
+  animation: fade 0.2s forwards;
+  opacity: 0;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modalimg,
+.modalimg img {
+  width: 30vw;
+  height: 72vh;
+  background-color: rgb(247, 242, 242, 1);
+  padding: 1vh 1vw 1vh 0vw;
+}
+.modaldetail {
+  width: 40vw;
+  height: 55vh;
+  font-size: 1.3vw;
+  background-color: rgb(247, 242, 242, 1);
+  padding: 10vh 1vw 10vh 5vw;
+}
+.modaldesc {
+  width: 28vw;
+}
+.modalname {
+  font-size: 2vw;
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 1vh;
+}
+.modalprice {
+  font-size: 1.8vw;
+  font-style: italic;
+  padding-bottom: 1vh;
+}
+.modaldesc {
+  font-size: 1.3vw;
+  font-style: italic;
+  padding: 2vh 0 2vh 0vw;
+}
+.modaldetail button {
+  width: 12vw;
+  height: 5vh;
+  font-size: 1.5vw;
+  background-color: black;
+  color: white;
+  font-style: italic;
+}
+.chatSupport {
+  float: right;
+  width: 10vw;
+}
