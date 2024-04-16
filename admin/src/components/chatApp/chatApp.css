@@ -1,0 +1,142 @@
+.chatUser-header{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background-color: brown;
+    color: white;
+}
+.titleHeader {
+    font-size: 2rem;
+    padding: 2vh 0 0 2vw;
+}
+.homeHeader {
+    font-size: 1.2rem;
+    padding: 5vh 0 0 50vw;
+}
+.userChat-body{
+    width: 65vw;
+    height: 70vh;
+    padding: 2vh 2vw 4vh 2vw;
+    font-size: 0.8rem;
+    overflow-y: scroll;
+}
+.chatUser-body{
+    display: flex;
+    margin: 2vh 1vw 2vh 1vw;
+    padding: 1vh 1vw 1vh 0vw;
+    font-size: 0.5rem;
+    width: 96vw;
+    height: 80vh;
+}
+.cusRoom {
+    padding: 0 0vw 1vh 1vw;
+    /* border-bottom: 0.1rem solid brown; */
+    background-color: brown;
+    color: white;
+}
+.roomBody {
+    width: 30vw;
+    border-right: 0.1rem solid brown;
+    font-size: 0.9rem;
+}
+.roomId {
+    display: flex;
+    padding: 0vh 0 0.5vh 0.5vw;
+}
+.userDetail {
+    padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+    
+}
+.cusIcon {
+    padding: 1vh 0 0 0;
+    color: brown;
+}
+
+.chatUser-footer {
+    display: flex;
+    padding: 2vh 1vw 2vh 2vw;
+    width: 65vw;
+}
+.chatUser-footer input {
+    width: 50vw;
+    height: 5vh;
+   
+}
+.btnSend{
+    padding: 0 0 0 0.5vw;
+}
+.btnSend button {
+    width: 5vw;
+    height: 5vh;
+}
+#other.messageUser {
+    color: white;
+}
+#you.messageUser {
+    justify-content: flex-end;
+    /* background-color: green; */
+    color: white;
+}
+.messageUser {
+    font-size: 1.2rem;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.messageIcon{
+    display: flex;
+}
+.messageUser-meta{
+    display: flex;
+    font-size: 1rem;
+    padding: 0 1vw 0 1vw;
+}
+#author{
+    padding-left: 0.5vw;
+}
+.messageUser-content{
+    padding: 0vh 0vw 0vh 1vw;
+    background-color: #43a047;
+    margin: 0;
+    border-radius: 0.5rem;
+}
+#other.messageUser-content{
+    padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+    background-color: rgb(101, 101, 226);
+    margin: 0;
+}
+#you.messageUser-content{
+    padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+}
+.messageUser-content p{
+    padding: 0.5vh 0.5vw 0.5vh 0.5vw ;
+    margin: 0;
+    border-radius: 0.5rem;
+}
+.messageUser-meta p{
+    /* background-color: #43a047; */
+    color: black;
+    padding: 0 ;
+    margin: 0;
+}
+.roomMenu{
+    background-color: brown;
+    color: white;
+    border-right: 0.1rem solid white ;
+    width: 17vw;
+    font-size: 1rem;
+
+}
+.menuTitle {
+    padding: 1vh 0 1vh 1vw;
+    border-bottom: 0.1rem solid white;
+}
+.roomList{
+    padding: 1vh 0 0 1vw;
+}

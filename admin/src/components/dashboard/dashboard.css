@@ -1,0 +1,80 @@
+.dashMean {
+    width: 100vw;
+    height: 100vh;
+}
+.homeDash{
+    padding: 0 0 2vh 80vw; 
+    font-size: 1.2rem;
+}
+
+.navDash{
+    font-size: 1.4rem;
+    padding: 2vh 2vw 2vh 2vw;
+}
+.dashNav{
+    width: 100vw;
+    background-color: brown;
+    color: white;
+}
+.dashHead{
+    display: flex;
+    font-size: 1rem;
+    width: 98vw;
+    height: 20vh;
+    column-gap: 1vw;
+    padding: 2vh 2vw 2vh 2vw;
+}
+.clientDash, .earningDash, .orderDash {
+    display: flex;
+    width: 32vw;
+    border: 0.2rem solid brown;
+    padding-right: 1vw;
+    border-radius: 0.5rem;
+    box-shadow: 0.5vw 0.5vh 0.5vw white;
+}
+.amountClient, .earningAmount, .orderAmount {
+    padding: 2vh 0 2vh 2vw;
+}
+.amountIcon, .earningIcon, .orderIcon {
+    padding: 2vh 0 0 18vw;
+}
+.amountIcon svg{
+    color: green;
+}
+.earningIcon svg{
+    color: orange;
+}
+.orderIcon svg{
+    color: purple;
+}
+.historyMenu{
+    width: 98vw;
+    font-size: 1.4rem;
+    padding: 0vh 2vw 2vh 2vw;
+    color: brown;
+}
+.historyTable{
+    width: 98vw;
+}
+table{
+    width: 98vw;
+    padding: 1vh 1vw 1vh 1vw;
+}
+.menuHis  {
+    width: 98vw ;
+    height: 5vh;
+}
+thead{
+    font-size: 1rem;
+}
+tbody{
+    font-size: 0.8rem;
+}
+.detailBtn {
+    text-align: center;
+}
+.detailBtn button{
+    background-color: rgb(56, 172, 56);
+    color: white;
+    border-radius: 0.3rem;
+}

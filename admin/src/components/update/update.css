@@ -1,0 +1,60 @@
+.updateForm{
+    width: 45vw;
+    /* height: 92vh; */
+    padding: 2vh 5vw 4vh 5vw;
+    margin: 2vh 10vw 1vh 5vw;
+    border: 0.1rem solid grey;
+    background-color: rgb(175, 80, 80);
+    color: white;
+    border-radius: 0.5rem;
+}
+.updateForm h2{
+    font-size: 1.2rem;
+}
+.updateForm input {
+    width: 35vw;
+    height: 5vh;
+    margin: 1vh 0 1vh 0;
+    font-size: 0.8rem;
+    padding: 0 0 0 0.5vw;
+}
+.updateForm label{
+    font-size: 0.8rem;
+}
+.updateForm textarea{
+    width: 35vw;
+    height: 5vh;
+    padding: 0 0 0 0.5vw;
+}
+.updateForm button{
+    width: 10vw;
+    height: 5vh;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(105, 105, 234);
+    color: white;
+}
+.updateForm button:hover{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.updateItems{
+    display: flex;
+}
+.returnbtn{
+    padding: 2vh 0 0 1vw;
+}
+.returnbtn button{
+    width: 10vw;
+    height: 5vh;
+    background-color: rgb(182, 107, 107);
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+.returnbtn button:hover{
+    background-color: rgb(85, 178, 94);
+    color: white;
+    font-weight: bold;
+}

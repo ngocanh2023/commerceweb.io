@@ -1,0 +1,50 @@
+.loginPass{
+  width: 47vw;
+  height: 35vh; 
+  background-color: brown;
+  color: white;
+  padding: 5vh 0 0 5vw;
+  margin: 10vh 10vw 10vh 10vw;
+  border-radius: 0.5rem;
+}
+.loginInp{
+  display: flex;
+}
+.inputInp{
+  padding: 0 0 0 1vw;
+}
+.inpLog{
+  padding: 0 0 0 4vw;
+}
+.passwordInp{
+  display: flex;
+}
+.submitBtn button{
+  background-color: rgb(86, 86, 226);
+  color: white;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 0.5rem;
+}
+.submitBtn{
+  padding: 2vh 2vw 2vh 0vw;
+}
+.loginPass{
+  padding: 10vh 10vw 10vh 10vw;
+}
+.loginReturn{
+  padding: 2vh 2vw 2vh 2vw;
+}
+.loginReturn button{
+  width: 10vw;
+  height: 5vh;
+  background-color: rgb(171, 79, 79);
+  color: white;
+  border-radius: 0.5rem;
+
+}
+.loginReturn button:hover{
+  background-color: rgb(43, 98, 43);
+  color: white;
+  font-weight: bold;
+}
